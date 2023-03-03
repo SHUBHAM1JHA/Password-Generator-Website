@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body hr {
+  color: green;
+  height: 1px;
+  background-color: green;
+}
+
+.main {
+  height: 420px;
+  width: 280px;
+  margin: 6px 64px;
+  border-left: 2px solid green;
+}
+
+.box {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.main input {
+  margin: 12px;
+  padding: 12px;
+  width: 256px;
+  border-radius: 3px;
+  border: 1px solid green;
+  font-size: 16px;
+}
+
+.main form {
+  padding: 6px;
+}
+
+.output {
+  height: 36px;
+  width: 256px;
+  border: 3px solid green;
+  margin: 6px;
+  background-color: aliceblue;
+  border-radius: 4px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  margin: 6px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  box-shadow: grey;
+}
+
+.head {
+  background-color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  margin: 32px;
+  padding: 6px;
+  width: 50%;
+  border-radius: 1px;
+  color: aliceblue;
+  font-style: italic;
+}
+
+.getPwd {
+  height: 360px;
+  width: 360px;
+  padding: 36px;
+  border-left: 2px solid green;
+  margin: 6px 72px;
+}
+
+.inpu {
+  width: 128px;
+  height: 36px;
+  border: 2px solid green;
+  border-radius: 2px;
+  padding: 12px 36px;
+  font-size: 22px;
+  margin: 12px 36px;
+}
+
+.inpu input {
+  height: 30px;
+  width: 136px;
+}
+
+.oupu {
+  width: 128px;
+  height: 36px;
+  border: 2px solid green;
+  border-radius: 2px;
+  padding: 12px 36px;
+  font-size: 20px;
+  margin: 12px 36px;
+}
+
+.tex {
+  width: 720px;
+  font-size: x-large;
+  background-color: green;
+  padding: 6px;
+  margin: 9px;
+  color: aliceblue;
+}
+
+.footer{
+  width: 100%;
+  height: 52px;
+  background-color: green;
+  color: white;
+  padding: 32px;
+  text-align: center;
+}

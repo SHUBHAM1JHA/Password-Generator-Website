@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="head">
+      <p><b>PASSWORD GENERATOR</b></p>
+    </div>
+    <hr />
+    <div class="main">
+      <div class="box">
+        <form action="">
+          <input
+            type="text"
+            id="name"
+            placeholder="Name of password..."
+            required
+          /><br />
+          <button type="btn" id="generator" onclick="gen(); return false;">
+            GENERATE</button
+          ><br />
+          <div class="output"><p id="op">Your password here...</p></div>
+          <button type="submit" id="save" onclick="copySave()">
+            COPY & SAVE
+          </button>
+        </form>
+      </div>
+    </div>
+    <hr />
+    <div class="getPwd">
+      <p class="tex"><b>GET YOUR SAVED PASSWORD</b></p>
+      <form action="">
+        <div class="inpu">
+          <input type="text" id="sTextbox" placeholder="Password name" />
+        </div>
+        <div class="sButton">
+          <button type="btn" id="sButton" onclick="search(); return false;">
+            SEARCH
+          </button>
+        </div>
+        <div class="oupu"><p id="savedPwdOp">Your password</p></div>
+        <div class="oupuButton">
+          <button
+            type="submit"
+            id="copyButton"
+            onclick="copier(); return true;"
+          >
+            COPY
+          </button>
+        </div>
+      </form>
+    </div>
+    <hr />
+    <div class="footer">
+      <p><b> Devloper: Shubham Jha <br> Copyright | Shubham_Jha 2023 <br></b></p>
+    </div>
+  </body>
+</html>
